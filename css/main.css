@@ -1,6 +1,5 @@
 html {
   background-color: #dbd6cf;
-  font-family: 'Bevan', sans-serif;
   line-height: 1.5;
   box-sizing: border-box;
   box-sizing: inherit;
@@ -8,23 +7,25 @@ html {
 
 header {
   color: #fff;
-  font-family: 'Bevan', sans-serif;
+  font-family: "Bevan", sans-serif;
+  line-height: 1.5;
   text-align: center;
   background: #79756f;
-  border-radius: 1px;
+  border: 3px solid #595652;
   border-color: #595652;
 }
 
 ul {
   list-style-type: none;
+  margin: .3em;
 }
 
 ul li {
   display: inline;
-  margin: .3em;
 }
 
 a:link, a:visited {
+  font-family: sans-serif;
   background-color: #713837;
   color: white;
   padding: .6em .5em .75em;
@@ -32,7 +33,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
-  border: 1px solid #713837
+  border: 1px solid #713837;
 }
 
 a:hover, a:active {
