@@ -1,0 +1,29 @@
+html {
+  background-color: #dbd6cf;
+  font-family: 'Bevan', sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+header {
+  color: #fff;
+  font-family: 'Bevan', sans-serif;
+  text-align: center;
+  background: #79756f;
+  border-radius: 1px;
+  border-color: #595652;
+}
+
+a:link, a:visited {
+  background-color: #713837;
+  color: white;
+  padding: .6em .5em .75em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #f33;
+}
